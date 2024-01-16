@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700;800;900;1000&family=Roboto:wght@100&display=swap');
+
+
+
+
+.container-sobre {
+    background-color: rgba(0, 0, 0, 0.521);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.596);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 30px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+  margin-right: auto;
+  }
+.sobre-mim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    
+  }
+  
+  .texto-sobre {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600; 
+    font-size: 22px;
+    text-align: justify;
+  }
+  .button-download {
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease-in-out;
+    margin-top: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .button-download svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: stroke-dashoffset 0.3s ease-in-out;
+  }
+  
+  .button-download:hover {
+    background: #4F95DA;
+  }
+  
+  .button-download:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .button-download span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 12px;
+  }
